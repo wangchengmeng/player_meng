@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Framework</string>
+
+    <string name="pull_to_refresh_pull_label">下拉可以刷新</string>
+    <string name="pull_down_to_refresh_pull_label">上拉可以刷新</string>
+    <string name="pull_to_refresh_release_label">释放开始刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新&#8230;</string>
+    <string name="pull_to_refresh_header_subtext_label">上次更新:</string>
+    <string name="no_more_data">没有更多了</string>
+
+    <!-- 出错提示 -->
+    <string name="msg_operate_fail_try_again">网络繁忙，请重试</string>
+    <string name="network_is_not_available">网络链接失败！请检查网络</string>
+    <string name="no_auth">接口未授权</string>
+    <string name="no_sdcard">SD卡未准备好，请确认后再进行下载安装</string>
+</resources>

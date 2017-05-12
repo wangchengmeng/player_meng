@@ -1,0 +1,25 @@
+# OSX
+
+*.DS_Store
+
+captures/
+# Gradle files
+build/
+.gradle/
+*/build/
+
+
+# IDEA
+*.iml
+.idea/
+# Generated files
+antLauncher/bin
+antLauncher/gen
+
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+
+# Log Files
+*.log

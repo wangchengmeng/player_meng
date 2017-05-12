@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black_overlay">
+
+    <TextView
+        android:id="@+id/tv_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_40"
+        android:gravity="center"
+        android:paddingLeft="@dimen/margin_15"
+        android:paddingRight="@dimen/margin_15"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size_1"/>
+
+    <TextView
+        android:id="@+id/tv_singer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_song"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_10"
+        android:textColor="#80FFFFFF"
+        android:textSize="@dimen/size_2"/>
+
+    <co.mobiwise.library.MusicPlayerView
+        android:id="@+id/mpv"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        app:buttonColor="#ff0028"
+        app:progressLoadedColor="#00815e"
+        app:textColor="#80FFFFFF"
+        app:textSize="14sp"/>
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/mpv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@mipmap/icon_like"
+        android:contentDescription="@null"/>
+
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignRight="@+id/mpv"
+        android:layout_below="@+id/mpv"
+        android:layout_marginTop="50dp"
+        android:background="@mipmap/icon_next"
+        android:contentDescription="@null"/>
+
+
+    <ImageView
+        android:id="@+id/previous"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/mpv"
+        android:layout_below="@+id/mpv"
+        android:layout_marginTop="50dp"
+        android:background="@mipmap/icon_previous"
+        android:contentDescription="@null"/>
+
+</RelativeLayout>

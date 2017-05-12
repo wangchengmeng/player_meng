@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/wangchengm/project/player_meng/library/build/intermediates/bundles/default/libs/fastjson-1.1.46.android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a84d1d867c4662c185a0766f9e4a0ecaffd27d36">
+        <dex dex="/Users/wangchengm/project/player_meng/app/build/intermediates/pre-dexed/debug/fastjson-1.1.46.android_1aa988c26ecfe5d9dbbe8450e0b2204bddf6b5dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/wangchengm/project/player_meng/library/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19cf2a6d01a7307d1f0ffab46613a45fc15b6646">
+        <dex dex="/Users/wangchengm/project/player_meng/app/build/intermediates/pre-dexed/debug/classes_41fe9bcec068b2cc6e2e29256627b237f2ac7fbe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/wangchengm/project/player_meng/library/build/intermediates/bundles/default/libs/httpmime-4.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7153f9bf83cf2713bbf5720f937aa5a22a87857a">
+        <dex dex="/Users/wangchengm/project/player_meng/app/build/intermediates/pre-dexed/debug/httpmime-4.2.1_c408a31808ddc8b6b4c3cebb0b3d3c207545614a.jar" />
+    </item>
+
+</items>
